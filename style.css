@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #6F6AF7;
+    display: flex;
+    color: white;
+    font-weight: 400px;
+    font-size: 24px;
+    height: fit-content;
+    padding: 14px;
+    align-items: center;
+    font-family: 'DM Sans';
+    justify-content: space-evenly;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.header .logo {
+    font-family: "Delius Unicase";
+    font-weight: 900px;
+    font-size: 36px;
+    width: 15%;
+    padding-left: 80px;
+}
+
+.header .menu-options {
+    width: calc(60%);
+    padding-left: 100px;
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+
+.down-arrow {
+    padding-bottom: 4px;
+    padding-left: 2px;
+}
+
+.header .search {
+    width: 150px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50px;
+    color: #9F9F9F;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    align-items: center;
+    padding: 0px 20px;
+    top: -100px;
+}
+
+.header .lines {
+    margin-top: 12px;
+    margin-left: 80px;
+    margin-right: 50px;
+}
+
+.frame {
+    display: flex;
+    padding-top: 160px;
+    padding-left: 200px;
+}
+
+.frame0 {
+    width: calc(95%);
+}
+
+.frame1 {
+    display: flex;
+    gap: 50px;
+    height: 45vh;
+    padding-left: 20px;
+}
+
+.frame1 .image {
+    height: fit-content;
+    box-shadow: 4px 7px 32px 0px #00000070;
+}
+
+.frame1 .textarea {
+    width: 65%;
+    background-color: #E5D8FF;
+    padding: 0;
+    border-radius: 20px;
+    font-size: 20px;
+    resize: none;
+    padding: 2%;
+    color: grey;
+    border: 0px;
+    box-shadow: 0px 2px 10px 0px #00000070;
+}
+.social-icons {
+    position: fixed;
+    overflow: hidden;
+    margin-left: 82.5%;
+    top: calc(35%);
+}
+
+.logos {
+    border: 2.5px solid black;
+    border-radius: 15%;
+    margin-bottom: 0.1rem;
+    padding: 3px;
+}
+
+.logos img {
+    height: 40px;
+    width: 46px;
+}
+
+.frame2 {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    padding: 2% 4%;
+    color: white;
+    font-weight: 600;
+    font-family: 'DM Sans';
+    width: 12%;
+    border-radius: 10px;
+    box-shadow: 0px 9px 31px 0px #00000066;
+}
+
+.box1 {
+    background-color: #929DFF;
+}
+
+.box2 {
+    background: #734CF2;
+}
+
+.box3 {
+    background: #D288FF;
+}
+
+.box4 {
+    background: #000000;
+}
+
+.chatbot {
+    position: fixed;
+    background-color: white;
+    height: fit-content;
+    margin-top: 27.5%;
+    margin-left: 78.5%;
+    padding: 10px;
+    border-radius: 100%;
+    box-shadow: 4px 15px 35px 0px #00000040;
+}
+
+.chatbot img {
+    margin-top: 2px;
+    height: 40px;
+}
+
+.frame3 {
+    background: #483EFF;
+    display: flex;
+    margin-top: 150px;
+    padding: 20px;
+    height: 70vh;
+    margin-bottom: 75px;
+}
+
+.part1 {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    font-family: "DM SANS";
+    font-size: 24px;
+    text-align: center;
+}
+
+.part1 .info {
+    background: #BCE0F6;
+    color: #000000;
+    font-weight: bolder;
+    padding: 30px 100px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 35px 0px #00000063;
+}
+
+.part1 .otherinfo {
+    padding: 30px 100px;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: #fff;
+}
+
+.part2 {
+    background-color: white;
+    width: 100%;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.part2 .personalInfo {
+    padding: 20px;
+}
+
+.personalInfo p {
+    font-size: 24px;
+    height: 50px;
+}
+
+.personalInfo p span {
+    font-weight: bolder;
+    width: 500px;
+}
+
+.nextButton{
+    color: white;
+    margin-left: 76%;
+    background-color: #000000;
+    width: fit-content;
+    font-size: 28px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    margin-top: 100px;
+    font-family: "DM SANS";
+}
+
+.nextButton img{
+    height: 20px;
+    margin-top: 0.5rem;
+}
